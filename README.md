@@ -1,2 +1,0 @@
-# bookHub
-php project
