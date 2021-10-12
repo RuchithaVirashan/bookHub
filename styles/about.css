@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.justify-content-end {
+    background-color: #c4c4c4;
+    height: 100px;
+}
+
+.active {
+    color: #000;
+    padding-top: 35px;
+}
+
+.section-main {
+    margin: 50px 50px 50px 50px;
+}
+
+.section-1 {
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section-1,
+h3 {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.section-1,
+p {
+    font-size: 17px;
+    line-height: 28px;
+    margin: 25px 0 70px 0px;
+    font-weight: 100;
+}
+
+.card {
+    text-align: center;
+    border: none;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 17px;
+}
+
+.btn-default {
+    background-color: #c4c4c4;
+    border-color: #c4c4c4;
+    color: #000;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    background-color: #c4c4c4;
+    border-color: #c4c4c4;
+    color: #000;
+    box-shadow: none;
+}

@@ -1,0 +1,26 @@
+.justify-content-center {
+  margin: 1em 0 1em 0;
+}
+
+.btn-default {
+  justify-content: center;
+  background-color: #c4c4c4;
+  border-color: #c4c4c4;
+  color: #000;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-color: #c4c4c4;
+  border-color: #c4c4c4;
+  color: #000;
+  box-shadow: none;
+}
+
+.row {
+  margin-left: 1em;
+}
+

@@ -1,0 +1,117 @@
+#navigation {
+    border-radius: 0px;
+    background-color: gray;
+    border: 0px;
+    color: white;
+}
+
+#navbarItems {
+    float: right;
+}
+
+.dropbtn {
+    background-color:gray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #8f8f8f;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:0;
+  } 
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+.nav-link .badge {
+    position: relative;
+    top: -10px;
+    right: 1px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #636060;
+    color: white;
+  }
+
+
+@media(min-width:300px){
+    #brand{
+        font-size: 14px;
+      }
+      #linknames{
+        font-size: 14px;
+      }
+      .dropbtn{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    #logo{
+        width: 60px;
+        height: 30px;
+    }
+    #linknames{
+        font-size: small;
+    }
+
+    #cartIco{
+        font-size: 17px;
+        letter-spacing:-2px;
+        font-style: normal;
+    }
+
+    }
+
+    @media(min-width:576px){
+
+        #logo{
+            width: 80px;
+            height: 40px;
+        }
+
+        #brand{
+          font-size:18px;
+        }
+        .dropbtn{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 14px;
+            padding-left: 14px;
+            font-size: 21px;
+        }
+    }

@@ -1,0 +1,36 @@
+#Formcrd {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#frm {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+#header {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submition {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#subbut {
+    text-align: center;
+}

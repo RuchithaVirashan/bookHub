@@ -1,0 +1,61 @@
+#footer{
+    background-color: #222;
+    opacity: .8;
+    color: white;
+    padding:10px 0px 0px 0px;
+
+}
+#line{
+    opacity: 1;
+    width: 50%;
+    align-items: center;
+    background-color: black; 
+}
+
+#location{
+    text-align: center;
+}
+#address{
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size: small;
+}
+
+#socialTags{
+    text-align: center;
+}
+
+#social{
+    padding-top:8px;
+    padding-bottom:8px
+}
+#socialRow{
+    padding:0px 60px 0px 60px ;
+}
+#helpCentre{
+    text-align: center;
+}
+#info{
+    padding-top:8px;
+    text-align: left;
+    font-size: small;
+}
+#rights{
+    text-align:center;
+    background-color: salmon;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity:0.8;
+    font-size: smaller;
+    color: black;
+
+}
+#para{
+    margin-bottom: 0;
+}
+
+@media(min-width:576px){
+    #socialRow{
+        padding: 0px 100px 0px 100px;
+    }
+}
