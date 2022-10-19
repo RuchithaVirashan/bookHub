@@ -39,8 +39,8 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `user_name`, `password`, `name`) VALUES
-(1, 'admin1', '4321', 'Admin - 01'),
-(2, 'admin2', '56789', 'Admin - 02');
+(1, 'admin01', '4321', 'Admin - 1'),
+(2, 'admin02', '56789', 'Admin - 2');
 
 --
 -- Indexes for dumped tables
