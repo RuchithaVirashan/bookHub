@@ -119,6 +119,7 @@ $desc = $_POST['description'];
 $cat = $_POST['categories'];
 $price = $_POST['price'];
 $sprice = $price + 2;
+$qnt =$finalQnt -1;
 
 
 if (($_FILES['bimage']['name'] != "")) {
