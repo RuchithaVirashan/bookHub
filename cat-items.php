@@ -93,7 +93,7 @@ $categoryName = $_SESSION['cat'];
 
 
     <?php require_once "script.php" ?>
-
+    <?php require_once "delete_process.php" ?>
     <?php require_once "footer.php" ?>
 </body>
 
