@@ -41,7 +41,9 @@ $categoryName = $_SESSION['cat'];
     <?php
     require_once("./home/homeDb.php");
     require_once("./home/item-component.php");
-
+    
+    $my=array("a"=>"red","b"=>"green","c"=>"blue");
+        echo array_search("red",$my);
     ?>
 
 
