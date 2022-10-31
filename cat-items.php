@@ -87,6 +87,14 @@ $categoryName = $_SESSION['cat'];
                         ' . $page . '</button> </a>');
                 }
             }
+
+            function countAll($table){
+                $dbh = dbConnect();
+                $sql = "select * from `$table`";
+                $stmt = $dbh->prepare($sql);
+                $stmt->execute();
+                return $stmt->rowCount();
+             }
             ?>
         </div>
     </div>
