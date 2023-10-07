@@ -24,6 +24,7 @@
                         <div class="col-3"><a href="#"><i class="bi bi-twitter"></i></a></div>
                         <div class="col-3"><a href="#"><i class="bi bi-linkedin"></i></a></div>
                         <div class="col-3"><a href="#"><i class="bi bi-github"></i></a></div>
+                        <div class="col-3"><a href="#"><i class="bi bi-instagram"></i></a></div>
                     </div>
                 </div>
                 <hr class="d-block d-sm-none" id="line">
