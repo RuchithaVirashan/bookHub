@@ -57,6 +57,17 @@ session_start();
                         </div>
                     </div>
                 </div>
+                
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Best online book store is our</h5>
+                            <p class="card-text">There are many variations on passages of Lorem Ipsum, but the majority have undergone some form of modification, making the randomly injected words seem somewhat unreliable. By some sort of, rather implausible, injected random words. Quaerat Provident commodi consectetur veniam similique adearum omnis ipsum saepe, voluptas, hic voluptates pariatur.</p>
+                            <a href="#" class="btn btn-outline-dark my-3">Read more</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-6">
                     <div class="card">
                         <img src="./Image/books.jpg" class="img-fluid" alt="books">
