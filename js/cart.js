@@ -15,7 +15,13 @@ $(document).ready(function() {
         }
     });
 
-    // click on qty down button
+    / $qty_up.click(function(e) {
+        if ($input.val() >= 1 && $input.val() <= 9) {
+            $input.val(function(i, oldval) {
+                return ++oldval;
+            });
+        }
+    });/ click on qty down button
     $qty_down.click(function(e) {
         if ($input.val() > 1 && $input.val() <= 10) {
             $input.val(function(i, oldval) {
