@@ -41,7 +41,9 @@ $categoryName = $_SESSION['cat'];
     <?php
     require_once("./home/homeDb.php");
     require_once("./home/item-component.php");
-
+    
+    $my=array("a"=>"red","b"=>"green","c"=>"blue");
+        echo array_search("red",$my);
     ?>
 
 
@@ -85,13 +87,21 @@ $categoryName = $_SESSION['cat'];
                         ' . $page . '</button> </a>');
                 }
             }
+
+            function countAll($table){
+                $dbh = dbConnect();
+                $sql = "select * from `$table`";
+                $stmt = $dbh->prepare($sql);
+                $stmt->execute();
+                return $stmt->rowCount();
+             }
             ?>
         </div>
     </div>
 
 
     <?php require_once "script.php" ?>
-
+    <?php require_once "delete_process.php" ?>
     <?php require_once "footer.php" ?>
 </body>
 

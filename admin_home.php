@@ -15,6 +15,10 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
+    $filesize = filesize( $filename );
+         $filetext = fread( $file, $filesize );
+         fclose( $file );
 </style>
 <body>
 
