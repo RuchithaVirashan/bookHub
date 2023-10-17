@@ -2,12 +2,13 @@
     background-color: #222;
     opacity: .8;
     color: white;
-    padding:10px 0px 0px 0px;
+    padding:10px 0;
 
 }
 #line{
     opacity: 1;
     width: 50%;
+    margin: 0 auto;
     align-items: center;
     background-color: black; 
 }
@@ -22,6 +23,7 @@
 }
 
 #socialTags{
+    padding: 0 60px;
     text-align: center;
 }
 
