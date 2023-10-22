@@ -12,7 +12,7 @@
 .dropbtn {
     background-color:gray;
     color: white;
-    padding: 16px;
+    padding: 16px 21px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -35,7 +35,7 @@
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
     right:0;
   } 
@@ -67,10 +67,7 @@
 
 
 @media(min-width:300px){
-    #brand{
-        font-size: 14px;
-      }
-      #linknames{
+    #brand,#linknames{
         font-size: 14px;
       }
       .dropbtn{
@@ -92,7 +89,6 @@
     #cartIco{
         font-size: 17px;
         letter-spacing:-2px;
-        font-style: normal;
     }
 
     }
