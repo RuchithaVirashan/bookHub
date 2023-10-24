@@ -5,6 +5,9 @@
     padding:10px 0;
 
 }
+#footer .title{
+    color: #d39e00;
+}
 #line{
     opacity: 1;
     width: 50%;
@@ -20,6 +23,7 @@
     padding-top:8px;
     padding-bottom:8px;
     font-size: small;
+    color: #adadad;
 }
 
 #socialTags{
@@ -34,6 +38,11 @@
 #socialRow{
     padding:0px 60px 0px 60px ;
 }
+
+#socialRow div{
+    padding-bottom: 10px;
+}
+
 #helpCentre{
     text-align: center;
 }
@@ -41,6 +50,8 @@
     padding-top:8px;
     text-align: left;
     font-size: small;
+    color: #adadad;
+    text-align: center;
 }
 #rights{
     text-align:center;
